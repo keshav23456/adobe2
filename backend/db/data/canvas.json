@@ -1,0 +1,683 @@
+{
+  "canvas": {
+    "DusPziE7xi": {
+      "id": "DusPziE7xi",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:26:34.247Z",
+      "updated_at": "2026-01-16T10:26:34.247Z"
+    },
+    "M4ZVIvauAJ": {
+      "id": "M4ZVIvauAJ",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:34:33.167Z",
+      "updated_at": "2026-01-16T10:34:33.167Z"
+    },
+    "FMXok2OpTO": {
+      "id": "FMXok2OpTO",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:35:22.531Z",
+      "updated_at": "2026-01-16T10:35:22.531Z"
+    },
+    "jUZowtBEyO": {
+      "id": "jUZowtBEyO",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:37:32.127Z",
+      "updated_at": "2026-01-16T10:37:32.127Z"
+    },
+    "xHJnMHuPBf": {
+      "id": "xHJnMHuPBf",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:37:34.980Z",
+      "updated_at": "2026-01-16T10:37:34.980Z"
+    },
+    "P-XFTTfdQG": {
+      "id": "P-XFTTfdQG",
+      "title": "Sample Canvas",
+      "content": "\"This is a sample Canvas document.\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here.\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas.\"}]}",
+      "created_at": "2026-01-16T10:37:37.298Z",
+      "updated_at": "2026-01-16T10:37:37.298Z"
+    },
+    "IiyfrcEFTd": {
+      "id": "IiyfrcEFTd",
+      "title": "Sample Canvas (Extraction Failed)",
+      "content": "\"Error: cannot read property 'pages' of undefined\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here. Error: cannot read property 'pages' of undefined\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas. Debug info: Check browser console for extraction errors.\"}]}",
+      "created_at": "2026-01-16T10:42:07.310Z",
+      "updated_at": "2026-01-16T10:42:07.310Z"
+    },
+    "Y-C2ahFlF0": {
+      "id": "Y-C2ahFlF0",
+      "title": "Sample Canvas (Extraction Failed)",
+      "content": "\"Error: cannot read property 'pages' of undefined\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here. Error: cannot read property 'pages' of undefined\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas. Debug info: Check browser console for extraction errors.\"}]}",
+      "created_at": "2026-01-16T10:43:06.615Z",
+      "updated_at": "2026-01-16T10:43:06.615Z"
+    },
+    "vDxbbK6Gsw": {
+      "id": "vDxbbK6Gsw",
+      "title": "Sample Canvas (Extraction Failed)",
+      "content": "\"Error: cannot read property 'pages' of undefined\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here. Error: cannot read property 'pages' of undefined\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas. Debug info: Check browser console for extraction errors.\"}]}",
+      "created_at": "2026-01-16T10:43:07.757Z",
+      "updated_at": "2026-01-16T10:43:07.757Z"
+    },
+    "4jvjKxXuhT": {
+      "id": "4jvjKxXuhT",
+      "title": "Sample Canvas (Extraction Failed)",
+      "content": "\"Error: No property with name documentRoot found on Live Object\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here. Error: No property with name documentRoot found on Live Object\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas. Debug info: Check browser console for extraction errors.\"}]}",
+      "created_at": "2026-01-16T10:44:45.838Z",
+      "updated_at": "2026-01-16T10:44:45.838Z"
+    },
+    "ngFNo-21sz": {
+      "id": "ngFNo-21sz",
+      "title": "Sample Canvas (Extraction Failed)",
+      "content": "\"Error: cannot read property 'name' of undefined\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This is a sample Canvas created from Adobe Express. The document content will appear here. Error: cannot read property 'name' of undefined\"},{\"id\":\"section-2\",\"title\":\"Main Content\",\"content\":\"Add text and content to your Adobe Express document to see it reflected in the Canvas. Debug info: Check browser console for extraction errors.\"}]}",
+      "created_at": "2026-01-16T10:44:49.915Z",
+      "updated_at": "2026-01-16T10:44:49.915Z"
+    },
+    "E75PXCfEtT": {
+      "id": "E75PXCfEtT",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:51:13.344Z",
+      "updated_at": "2026-01-16T10:51:13.344Z"
+    },
+    "qC9_TTchy2": {
+      "id": "qC9_TTchy2",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:53:09.041Z",
+      "updated_at": "2026-01-16T10:53:09.041Z"
+    },
+    "yLyaXGnY7L": {
+      "id": "yLyaXGnY7L",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:54:57.003Z",
+      "updated_at": "2026-01-16T10:54:57.003Z"
+    },
+    "4CrR9DpM0v": {
+      "id": "4CrR9DpM0v",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:55:14.193Z",
+      "updated_at": "2026-01-16T10:55:14.193Z"
+    },
+    "K8rAVUuXQO": {
+      "id": "K8rAVUuXQO",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:55:25.906Z",
+      "updated_at": "2026-01-16T10:55:25.906Z"
+    },
+    "1E1ac7lS37": {
+      "id": "1E1ac7lS37",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:56:13.484Z",
+      "updated_at": "2026-01-16T10:56:13.484Z"
+    },
+    "2ZMfrghdtC": {
+      "id": "2ZMfrghdtC",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T10:59:41.490Z",
+      "updated_at": "2026-01-16T10:59:41.490Z"
+    },
+    "WSoFyDTQVP": {
+      "id": "WSoFyDTQVP",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T11:01:50.243Z",
+      "updated_at": "2026-01-16T11:01:50.243Z"
+    },
+    "DywIQEHMhx": {
+      "id": "DywIQEHMhx",
+      "title": "My Project Proposal",
+      "content": "\"Complete project proposal with all sections\"",
+      "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+      "created_at": "2026-01-16T11:03:47.902Z",
+      "updated_at": "2026-01-16T11:03:47.902Z"
+    }
+  },
+  "milestones": {
+    "2ZMfrghdtC": [
+      {
+        "id": "1768561183579",
+        "canvas_id": "2ZMfrghdtC",
+        "name": "Milestone 16:29:43",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T10:59:43.580Z"
+      },
+      {
+        "id": "1768561191548",
+        "canvas_id": "2ZMfrghdtC",
+        "name": "Milestone 16:29:51",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T10:59:51.548Z"
+      }
+    ],
+    "WSoFyDTQVP": [
+      {
+        "id": "1768561319961",
+        "canvas_id": "WSoFyDTQVP",
+        "name": "Milestone 16:31:59",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T11:01:59.961Z"
+      },
+      {
+        "id": "1768561326063",
+        "canvas_id": "WSoFyDTQVP",
+        "name": "Milestone 16:32:06",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T11:02:06.063Z"
+      }
+    ],
+    "DywIQEHMhx": [
+      {
+        "id": "1768561435848",
+        "canvas_id": "DywIQEHMhx",
+        "name": "Milestone 16:33:55",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T11:03:55.849Z"
+      },
+      {
+        "id": "1768561441963",
+        "canvas_id": "DywIQEHMhx",
+        "name": "Milestone 16:34:01",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T11:04:01.963Z"
+      },
+      {
+        "id": "1768561450080",
+        "canvas_id": "DywIQEHMhx",
+        "name": "Milestone 16:34:10",
+        "reason": "Version saved from Adobe Express",
+        "content": "\"Complete project proposal with all sections\"",
+        "structure": "{\"sections\":[{\"id\":\"section-1\",\"title\":\"Introduction\",\"content\":\"This project proposal presents a clear overview of the idea, its objectives, and the problem it aims to solve. The goal is to deliver a meaningful solution that balances creativity, usability, and real-world impact. This section sets the context for why the project matters and how it adds value to users or stakeholders.\"},{\"id\":\"section-2\",\"title\":\"Budget\",\"content\":\"The budget section provides an estimate of the resources required to successfully complete the project. This includes tools, software, development effort, and any additional operational costs. The focus is on cost-efficiency while ensuring quality execution and scalability where needed.\"},{\"id\":\"section-3\",\"title\":\"Timeline\",\"content\":\"The project will be executed in clearly defined phases, starting from planning and design, followed by development, testing, and final delivery. Each phase includes measurable milestones to ensure timely progress and smooth execution from start to finish.\"},{\"id\":\"section-4\",\"title\":\"Team & Resources\",\"content\":\"Our dedicated team brings together expertise in design, development, and project management. Each member contributes specialized skills to ensure successful delivery. We have allocated the necessary tools and resources to support collaboration and maintain high quality standards throughout the project lifecycle.\"}]}",
+        "created_at": "2026-01-16T11:04:10.080Z"
+      }
+    ]
+  },
+  "tracking": {
+    "DusPziE7xi": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "M4ZVIvauAJ": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "FMXok2OpTO": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "jUZowtBEyO": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "xHJnMHuPBf": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "P-XFTTfdQG": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "IiyfrcEFTd": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "Y-C2ahFlF0": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "vDxbbK6Gsw": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "4jvjKxXuhT": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "ngFNo-21sz": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "E75PXCfEtT": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": true,
+        "view_count": 1,
+        "time_spent": 4,
+        "last_viewed": "2026-01-16T10:51:25.329Z"
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "qC9_TTchy2": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": true,
+        "view_count": 2,
+        "time_spent": 17,
+        "last_viewed": "2026-01-16T10:53:34.191Z"
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": true,
+        "view_count": 1,
+        "time_spent": 14,
+        "last_viewed": "2026-01-16T10:53:26.920Z"
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": true,
+        "view_count": 2,
+        "time_spent": 6,
+        "last_viewed": "2026-01-16T10:53:29.172Z"
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": true,
+        "view_count": 2,
+        "time_spent": 20,
+        "last_viewed": "2026-01-16T10:53:51.108Z"
+      }
+    },
+    "yLyaXGnY7L": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "4CrR9DpM0v": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "K8rAVUuXQO": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "1E1ac7lS37": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "2ZMfrghdtC": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "WSoFyDTQVP": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    },
+    "DywIQEHMhx": {
+      "section-1": {
+        "section_id": "section-1",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-2": {
+        "section_id": "section-2",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-3": {
+        "section_id": "section-3",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      },
+      "section-4": {
+        "section_id": "section-4",
+        "viewed": false,
+        "view_count": 0,
+        "time_spent": 0,
+        "last_viewed": null
+      }
+    }
+  }
+}

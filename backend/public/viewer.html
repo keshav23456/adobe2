@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .canvas-badge {
+            display: inline-block;
+            background: #5258e4;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        .canvas-title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 32px;
+            color: #1a1a1a;
+        }
+
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #2c2c2c;
+        }
+
+        .section-content {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #4a4a4a;
+        }
+
+        .insight-toggle {
+            margin-bottom: 16px;
+            display: flex;
+            gap: 8px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        .toggle-btn {
+            padding: 6px 16px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: #666;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -10px;
+        }
+
+        .toggle-btn.active {
+            color: #5258e4;
+            border-bottom-color: #5258e4;
+        }
+
+        .insights-list {
+            display: none;
+        }
+
+        .insights-list.active {
+            display: block;
+        }
+
+        .insights-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .insights-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            line-height: 1.6;
+        }
+
+        .insights-list li:before {
+            content: "•";
+            color: #5258e4;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-right: 8px;
+        }
+
+        .text-content {
+            display: block;
+        }
+
+        .text-content.hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .side-panel {
+            position: fixed;
+            right: -320px;
+            top: 0;
+            width: 320px;
+            height: 100vh;
+            background: white;
+            box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+            transition: right 0.3s ease;
+            z-index: 200;
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .side-panel.open {
+            right: 0;
+        }
+
+        .panel-toggle {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: #5258e4;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 56px;
+            height: 56px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(82, 88, 228, 0.4);
+            z-index: 150;
+        }
+
+        .panel-toggle:hover {
+            background: #4046ca;
+        }
+
+        .blind-spots-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .blind-spot-item {
+            background: #fff3cd;
+            border-left: 3px solid #ffc107;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .no-blind-spots {
+            color: #28a745;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .milestone-item {
+            background: #e3f2fd;
+            border-left: 3px solid #2196f3;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .milestone-name {
+            font-weight: 600;
+            color: #1565c0;
+        }
+
+        .milestone-reason {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .milestone-date {
+            font-size: 11px;
+            color: #999;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="canvas-badge">📄 This document is a Canvas</span>
+    </div>
+
+    <div class="container">
+        <div id="canvas-content" class="loading">
+            Loading Canvas...
+        </div>
+    </div>
+
+    <button class="panel-toggle" onclick="togglePanel()">👁️</button>
+
+    <div class="side-panel" id="sidePanel">
+        <div style="margin-bottom: 32px;">
+            <h3 class="blind-spots-title">Blind Spots</h3>
+            <div id="blindSpots">
+                <p style="color: #666; font-size: 14px;">Analyzing reading patterns...</p>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="blind-spots-title">Milestones</h3>
+            <div id="milestones">
+                <p style="color: #666; font-size: 14px;">Loading milestones...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvasId = window.location.pathname.split('/').pop();
+        let observerMap = new Map();
+        let viewTimers = new Map();
+
+        // Toggle side panel
+        function togglePanel() {
+            document.getElementById('sidePanel').classList.toggle('open');
+        }
+
+        // Load Canvas content
+        async function loadCanvas() {
+            try {
+                const response = await fetch(`/api/canvas/${canvasId}`);
+                if (!response.ok) throw new Error('Canvas not found');
+                
+                const canvas = await response.json();
+                renderCanvas(canvas);
+                setupTracking(canvas);
+                loadBlindSpots();
+                loadMilestones();
+            } catch (error) {
+                document.getElementById('canvas-content').innerHTML = `
+                    <div class="error">
+                        <h2>Canvas Not Found</h2>
+                        <p>The Canvas you're looking for doesn't exist or has been removed.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Render Canvas content
+        function renderCanvas(canvas) {
+            const container = document.getElementById('canvas-content');
+            
+            let html = `<h1 class="canvas-title">${canvas.title}</h1>`;
+            
+            canvas.structure.sections.forEach(section => {
+                html += `
+                    <div class="section" data-section-id="${section.id}">
+                        <h2 class="section-title">${section.title}</h2>
+                        <div class="insight-toggle">
+                            <button class="toggle-btn active" onclick="showText('${section.id}')">Text</button>
+                            <button class="toggle-btn" onclick="showInsights('${section.id}')">Insights</button>
+                        </div>
+                        <div class="text-content" id="text-${section.id}">
+                            ${section.content}
+                        </div>
+                        <div class="insights-list" id="insights-${section.id}">
+                            <p style="color: #999; font-size: 14px;">Loading insights...</p>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = html;
+        }
+
+        // Setup tracking with Intersection Observer
+        function setupTracking(canvas) {
+            const sections = document.querySelectorAll('.section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const sectionId = entry.target.dataset.sectionId;
+                    
+                    if (entry.isIntersecting) {
+                        // Section entered viewport - start timer
+                        viewTimers.set(sectionId, Date.now());
+                    } else if (viewTimers.has(sectionId)) {
+                        // Section left viewport - track view
+                        const startTime = viewTimers.get(sectionId);
+                        const timeSpent = Math.floor((Date.now() - startTime) / 1000);
+                        
+                        if (timeSpent > 1) { // Only track if viewed for more than 1 second
+                            trackView(canvasId, sectionId, timeSpent);
+                        }
+                        
+                        viewTimers.delete(sectionId);
+                    }
+                });
+            }, { threshold: 0.5 }); // Trigger when 50% visible
+            
+            sections.forEach(section => observer.observe(section));
+        }
+
+        // Track section view
+        async function trackView(canvasId, sectionId, timeSpent) {
+            try {
+                await fetch('/api/tracking/view', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ canvasId, sectionId, timeSpent })
+                });
+                
+                // Reload blind spots after tracking
+                setTimeout(loadBlindSpots, 500);
+            } catch (error) {
+                console.error('Error tracking view:', error);
+            }
+        }
+
+        // Load blind spots
+        async function loadBlindSpots() {
+            try {
+                const response = await fetch(`/api/tracking/blind-spots/${canvasId}`);
+                const data = await response.json();
+                
+                const container = document.getElementById('blindSpots');
+                
+                if (data.blindSpots.length === 0) {
+                    container.innerHTML = `
+                        <div class="no-blind-spots">
+                            ✓ All sections have been viewed
+                        </div>
+                    `;
+                } else {
+                    let html = '';
+                    data.blindSpots.forEach(spot => {
+                        html += `
+                            <div class="blind-spot-item">
+                                ${spot.message}
+                            </div>
+                        `;
+                    });
+                    container.innerHTML = html;
+                }
+            } catch (error) {
+                console.error('Error loading blind spots:', error);
+            }
+        }
+
+        // Load milestones
+        async function loadMilestones() {
+            try {
+                const response = await fetch(`/api/milestones/${canvasId}`);
+                const data = await response.json();
+                
+                const container = document.getElementById('milestones');
+                
+                if (data.milestones.length === 0) {
+                    container.innerHTML = `
+                        <p style="color: #666; font-size: 12px; text-align: center;">
+                            No milestones yet
+                        </p>
+                    `;
+                } else {
+                    let html = '';
+                    data.milestones.forEach(milestone => {
+                        const date = new Date(milestone.createdAt).toLocaleDateString();
+                        html += `
+                            <div class="milestone-item">
+                                <div class="milestone-name">${milestone.name}</div>
+                                ${milestone.reason ? `<div class="milestone-reason">${milestone.reason}</div>` : ''}
+                                <div class="milestone-date">${date}</div>
+                            </div>
+                        `;
+                    });
+                    container.innerHTML = html;
+                }
+            } catch (error) {
+                console.error('Error loading milestones:', error);
+            }
+        }
+
+        // Toggle between text and insights
+        window.showText = function(sectionId) {
+            const section = document.querySelector(`[data-section-id="${sectionId}"]`);
+            const toggleBtns = section.querySelectorAll('.toggle-btn');
+            toggleBtns[0].classList.add('active');
+            toggleBtns[1].classList.remove('active');
+            
+            document.getElementById(`text-${sectionId}`).classList.remove('hidden');
+            document.getElementById(`insights-${sectionId}`).classList.remove('active');
+        };
+
+        window.showInsights = async function(sectionId) {
+            const section = document.querySelector(`[data-section-id="${sectionId}"]`);
+            const toggleBtns = section.querySelectorAll('.toggle-btn');
+            toggleBtns[0].classList.remove('active');
+            toggleBtns[1].classList.add('active');
+            
+            document.getElementById(`text-${sectionId}`).classList.add('hidden');
+            const insightsDiv = document.getElementById(`insights-${sectionId}`);
+            insightsDiv.classList.add('active');
+
+            // Generate insights if not already loaded
+            if (!insightsDiv.dataset.loaded) {
+                const textContent = document.getElementById(`text-${sectionId}`).textContent;
+                
+                try {
+                    const response = await fetch('/api/insights/generate', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ text: textContent })
+                    });
+                    
+                    const data = await response.json();
+                    
+                    let html = '<ul>';
+                    data.insights.forEach(insight => {
+                        html += `<li>${insight}</li>`;
+                    });
+                    html += '</ul>';
+                    
+                    insightsDiv.innerHTML = html;
+                    insightsDiv.dataset.loaded = 'true';
+                } catch (error) {
+                    console.error('Error generating insights:', error);
+                    insightsDiv.innerHTML = '<p style="color: #c33;">Failed to generate insights</p>';
+                }
+            }
+        };
+
+        // Initialize on page load
+        loadCanvas();
+    </script>
+</body>
+</html>
