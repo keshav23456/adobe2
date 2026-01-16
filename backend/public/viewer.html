@@ -197,18 +197,57 @@
         }
 
         .blind-spot-item {
-            background: #fff3cd;
-            border-left: 3px solid #ffc107;
-            padding: 12px;
-            margin-bottom: 8px;
-            border-radius: 4px;
-            font-size: 14px;
+            background: linear-gradient(135deg, #fff3cd 0%, #ffe4a3 100%);
+            border-left: 4px solid #ffc107;
+            padding: 14px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 13px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .blind-spot-icon {
+            font-size: 18px;
+            margin-right: 8px;
         }
 
         .no-blind-spots {
-            color: #28a745;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            color: #155724;
             text-align: center;
             padding: 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            border: 2px solid #28a745;
+        }
+
+        .reading-progress {
+            margin-bottom: 16px;
+            padding: 12px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-radius: 8px;
+            border: 2px solid #2196f3;
+        }
+
+        .progress-text {
+            font-size: 13px;
+            font-weight: 600;
+            color: #0d47a1;
+            margin-bottom: 8px;
+        }
+
+        .progress-bar-container {
+            background: white;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #2196f3 0%, #1976d2 100%);
+            transition: width 0.5s ease;
         }
 
         .milestone-item {
@@ -369,7 +408,7 @@
             }
         }
 
-        // Load blind spots
+        // Load blind spots with progress tracking
         async function loadBlindSpots() {
             try {
                 const response = await fetch(`/api/tracking/blind-spots/${canvasId}`);
@@ -377,23 +416,42 @@
                 
                 const container = document.getElementById('blindSpots');
                 
+                // Calculate reading progress
+                const totalSections = data.totalSections || 0;
+                const viewedSections = data.viewedSections || 0;
+                const progressPercent = totalSections > 0 ? Math.round((viewedSections / totalSections) * 100) : 0;
+                
+                let html = `
+                    <div class="reading-progress">
+                        <div class="progress-text">
+                            📊 Reading Progress: ${viewedSections}/${totalSections} sections viewed
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar" style="width: ${progressPercent}%"></div>
+                        </div>
+                    </div>
+                `;
+                
                 if (data.blindSpots.length === 0) {
-                    container.innerHTML = `
+                    html += `
                         <div class="no-blind-spots">
-                            ✓ All sections have been viewed
+                            ✓ All sections have been viewed!
                         </div>
                     `;
                 } else {
-                    let html = '';
+                    html += `<div style="margin-top: 12px;">`;
                     data.blindSpots.forEach(spot => {
                         html += `
                             <div class="blind-spot-item">
-                                ${spot.message}
+                                <span class="blind-spot-icon">⚠️</span>
+                                <span>${spot.message}</span>
                             </div>
                         `;
                     });
-                    container.innerHTML = html;
+                    html += `</div>`;
                 }
+                
+                container.innerHTML = html;
             } catch (error) {
                 console.error('Error loading blind spots:', error);
             }
