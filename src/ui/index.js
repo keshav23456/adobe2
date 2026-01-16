@@ -43,11 +43,19 @@ addOnUISdk.ready.then(async () => {
             document.getElementById("canvasLink").value = result.url;
             document.getElementById("canvasLinkContainer").style.display = "block";
             
-            showStatus("Canvas published successfully!", "success");
+            showStatus("Canvas published successfully! Opening viewer...", "success");
 
             // Enable other features
             document.getElementById("createMilestone").disabled = false;
-            document.getElementById("viewInsights").disabled = false;
+            
+            // Auto-open Canvas viewer (removed separate button)
+            setTimeout(() => {
+                try {
+                    window.open(result.url, '_blank');
+                } catch (e) {
+                    console.log("Auto-open blocked, use link above");
+                }
+            }, 500);
 
         } catch (error) {
             console.error("Error publishing Canvas:", error);
@@ -57,21 +65,34 @@ addOnUISdk.ready.then(async () => {
         }
     });
 
-    // Create Milestone
+    // Create Milestone - Show modal
     const milestoneButton = document.getElementById("createMilestone");
-    milestoneButton.addEventListener("click", async () => {
+    milestoneButton.addEventListener("click", () => {
         if (!currentCanvasId) {
             showStatus("Please publish as Canvas first", "error");
             return;
         }
+        
+        // Show milestone modal
+        document.getElementById("milestoneModal").style.display = "flex";
+        document.getElementById("milestoneName").value = "";
+        document.getElementById("milestoneReason").value = "";
+        document.getElementById("milestoneName").focus();
+    });
 
-        // Use default milestone for demo (prompt may not work in iframe)
-        const timestamp = new Date().toLocaleTimeString();
-        const name = `Milestone ${timestamp}`;
-        const reason = "Version saved from Adobe Express";
-
+    // Milestone modal handlers
+    document.getElementById('saveMilestone').addEventListener('click', async () => {
+        const name = document.getElementById('milestoneName').value.trim();
+        const reason = document.getElementById('milestoneReason').value.trim();
+        
+        if (!name) {
+            showStatus("Please enter a milestone name", "error");
+            return;
+        }
+        
         try {
             showStatus("Creating milestone...");
+            document.getElementById("milestoneModal").style.display = "none";
 
             const response = await fetch(`${BACKEND_URL}/api/milestones/create`, {
                 method: "POST",
@@ -79,7 +100,7 @@ addOnUISdk.ready.then(async () => {
                 body: JSON.stringify({
                     canvasId: currentCanvasId,
                     name,
-                    reason
+                    reason: reason || "No reason provided"
                 })
             });
 
@@ -88,7 +109,7 @@ addOnUISdk.ready.then(async () => {
             }
 
             const result = await response.json();
-            showStatus(`✓ Milestone "${name}" created!`, "success");
+            showStatus(`✓ Milestone "${name}" created successfully!`, "success");
             console.log("Milestone created:", result);
 
         } catch (error) {
@@ -96,32 +117,9 @@ addOnUISdk.ready.then(async () => {
             showStatus("Error: " + error.message, "error");
         }
     });
-
-    // View Insights - Open Canvas viewer
-    const insightsButton = document.getElementById("viewInsights");
-    insightsButton.addEventListener("click", async () => {
-        if (!currentCanvasId) {
-            showStatus("Please publish as Canvas first", "error");
-            return;
-        }
-
-        const canvasUrl = `http://localhost:3000/canvas/${currentCanvasId}`;
-        
-        // Try to open in new window (may be blocked in iframe)
-        try {
-            const opened = window.open(canvasUrl, '_blank');
-            if (opened) {
-                showStatus("✓ Canvas viewer opened!", "success");
-            } else {
-                // Fallback: show link to copy
-                showStatus("Copy the Canvas link above to view it", "info");
-            }
-        } catch (e) {
-            console.error("Cannot open window:", e);
-            showStatus("Use the Canvas link above to view", "info");
-        }
-        
-        console.log("Canvas URL:", canvasUrl);
+    
+    document.getElementById('cancelMilestone').addEventListener('click', () => {
+        document.getElementById("milestoneModal").style.display = "none";
     });
 
     // Enable publish button

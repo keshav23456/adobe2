@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Canvas - Living Documents That Notice, Remember, and Clarify
 
 Adobe Express add-on that turns documents into living Canvas with awareness features.
@@ -56,8 +56,3 @@ npm run start
 - JSON file-based database
 - Tailwind CSS
 - Intersection Observer API (tracking)
-=======
->>>>>>> acc292a1c8625f70207ef6012f87435f4b95c581
-# adobe
-# adobe2
-# adobe2

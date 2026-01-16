@@ -277,6 +277,7 @@
                 <p class="subtitle">Living Documents That Notice, Remember, and Clarify</p>
             </div>
 
+
             <!-- Status Messages -->
             <div id="status" class="status-box">
                 <span id="statusMessage"></span>
@@ -312,11 +313,40 @@
                     <span class="btn-icon">💾</span>
                     <span>Create Milestone</span>
                 </button>
+            </div>
 
-                <button id="viewInsights" disabled class="action-btn btn-tertiary">
-                    <span class="btn-icon">👁️</span>
-                    <span>View Insights</span>
-                </button>
+            <!-- Milestone Modal -->
+            <div id="milestoneModal" style="display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center; padding: 20px;">
+                <div style="background: white; padding: 24px; border-radius: 12px; width: 100%; max-width: 400px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+                    <div style="font-size: 20px; font-weight: 700; margin-bottom: 16px; color: #333;">
+                        💾 Create Milestone
+                    </div>
+                    
+                    <div style="margin-bottom: 16px;">
+                        <label style="display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 6px;">
+                            Milestone Name <span style="color: #f44336;">*</span>
+                        </label>
+                        <input type="text" id="milestoneName" placeholder="e.g., Initial Draft, Client Review, Final Version" 
+                               style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 14px;">
+                    </div>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 6px;">
+                            Why is this version important? (Optional)
+                        </label>
+                        <textarea id="milestoneReason" rows="3" placeholder="e.g., Added pricing section, Updated based on feedback" 
+                                  style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 8px; font-size: 14px; resize: vertical;"></textarea>
+                    </div>
+                    
+                    <div style="display: flex; gap: 10px;">
+                        <button id="saveMilestone" style="flex: 1; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">
+                            💾 Save Milestone
+                        </button>
+                        <button id="cancelMilestone" style="background: #e0e0e0; color: #333; border: none; padding: 12px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">
+                            Cancel
+                        </button>
+                    </div>
+                </div>
             </div>
 
             <!-- Features -->
